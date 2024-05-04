@@ -1,11 +1,15 @@
 CREATE PROCEDURE SalesByCustomer (
-    @FechaInicio DATETIME = NULL,
-    @FechaFin DATETIME = NULL,
-    @Customer VARCHAR(255) = NULL,
-    @Product VARCHAR(255) = NULL
+    @startDate date = NULL,
+    @endDate date = NULL,
+    @customer nvarchar(255) = NULL,
+    @product nvarchar(255) = NULL,
+    @PageNumber INT = 1,  
+    @PageSize INT = 10 
 )
 AS
 BEGIN
+    SET NOCOUNT ON;
+
     WITH VentasCTE AS (
         SELECT
             so.SalesOrderID,
@@ -37,23 +41,25 @@ BEGIN
         INNER JOIN
             Person.Address sa ON so.BillToAddressID = sa.AddressID
         WHERE
-            (@FechaInicio IS NULL OR so.OrderDate >= @FechaInicio)
-            AND (@FechaFin IS NULL OR so.OrderDate <= @FechaFin)
-            AND (@Customer IS NULL OR c.FirstName = @Customer)
-            AND (@Product IS NULL OR P.Name = @Product)
+            (@startDate IS NULL OR so.OrderDate >= @startDate)
+            AND (@endDate IS NULL OR so.OrderDate <= @endDate)
+            AND (@customer IS NULL OR c.FirstName LIKE '%'+ @customer + '%')
+            AND (@product IS NULL OR p.Name LIKE '%' + @product + '%')
+    ), SalesSummary AS (
+        SELECT
+            CustomerName,
+            CategoryName,
+            ProductName,
+            COUNT(SalesOrderID) AS Sales,
+            UnitPrice,
+            SUM(UnitPrice * OrderQty) AS TotalSales,
+            ROW_NUMBER() OVER (ORDER BY SUM(UnitPrice * OrderQty) DESC, CustomerName, CategoryName, ProductName) AS RowNumber
+        FROM
+            VentasCTE
+        GROUP BY
+            CustomerName, CategoryName, ProductName, UnitPrice 
     )
-
-    SELECT
-        CustomerName,
-        CategoryName,
-        ProductName,
-        COUNT(SalesOrderID) AS Sales,
-        UnitPrice,
-        SUM(UnitPrice * OrderQty) AS TotalSales
-    FROM
-        VentasCTE
-    GROUP BY
-      CustomerName, CategoryName, ProductName, UnitPrice;
-END;
-
-exec SalesByCustomer
+    SELECT *
+    FROM SalesSummary
+    WHERE RowNumber BETWEEN (@PageNumber - 1) * @PageSize + 1 AND @PageNumber * @PageSize;
+END

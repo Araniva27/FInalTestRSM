@@ -51,8 +51,3 @@ BEGIN
         RowNum BETWEEN @startRow AND @endRow
 	ORDER BY OrderDate ASC
 END
-
-	EXEC SalesReport @ProductCategory = 'Bikes', @pageNumber = 2, @pageSize = 5
-	EXEC SalesReport @productCategory='Bikes', @startDate = '2013-05-31', @endDate = '2013-05-31'
-	drop procedure SalesReport
---ESTA ES LA DE PRUEBA

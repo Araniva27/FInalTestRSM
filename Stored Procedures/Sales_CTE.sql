@@ -2,7 +2,9 @@ CREATE PROCEDURE Sales_CTE
 	@productCategory nvarchar(100) = NULL,
 	@startDate datetime = NULL,
 	@endDate datetime = NULL,
-	@territory nvarchar(50) = NULL
+	@territory nvarchar(50) = NULL,
+	@PageNumber INT = 1,  
+    @PageSize INT = 10
 AS
 WITH Sales_CTE AS(
 	SELECT 
@@ -22,7 +24,6 @@ WITH Sales_CTE AS(
 		(@startDate IS NULL OR OrderDate >= @startDate)
 	AND
 		(@endDate IS NULL OR OrderDate <= @endDate)
-
 	GROUP BY p.Name, pc.Name, soh.TerritoryID, st.Name, soh.OrderDate
 ),
 TotalSalesByCategoryAndRegion AS (
@@ -46,9 +47,11 @@ PercentageOfContribution AS (
 		TerritoryName,
 		OrderDate,
 		(TotalSales / TotalSalesByCategoryAndRegion) * 100 as PercentOfTotalCategorySalesInRegion,
-		(TotalSales / TotalSalesByRegion) * 100 as PercentOfTotalSalesInRegion
+		(TotalSales / TotalSalesByRegion) * 100 as PercentOfTotalSalesInRegion,
+		ROW_NUMBER() OVER (ORDER BY TotalSales DESC, ProductCategory, Territory) AS RowNum
 	FROM TotalSalesByCategoryAndRegion
-)SELECT	
+)
+SELECT	
     ProductName,
     ProductCategory,    
     TotalSales,
@@ -58,12 +61,6 @@ PercentageOfContribution AS (
 	TerritoryName,
 	OrderDate
 FROM PercentageOfContribution
-WHERE 
-	(@productCategory IS NULL OR ProductCategory = @productCategory)
-AND
-	(@territory IS NULL OR TerritoryName = @territory)
-GO
-
---Filtro de ProductCategory, top de ventas, SalesByTerritory
-exec Sales_CTE @productCategory = 'Bikes'
-exec Sales_CTE @territory = 'Northwest', @startDate = '2011-05-31', @endDate = '2011-05-31'
+WHERE RowNum BETWEEN (@PageNumber - 1) * @PageSize + 1 AND @PageNumber * @PageSize
+AND (@productCategory IS NULL OR ProductCategory = @productCategory)
+AND (@territory IS NULL OR TerritoryName = @territory)
