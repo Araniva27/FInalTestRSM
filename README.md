@@ -202,7 +202,7 @@ AND (@productCategory IS NULL OR ProductCategory = @productCategory)
 AND (@territory IS NULL OR TerritoryName = @territory)
 ```
 
-##Libraries used
+## Libraries used
 - **Bootstrap**: Utilized for interface design.
 - **JavaScript (JQuery and AJAX)**: Used for consuming various API endpoints.
 - **jsPDF**: Employed for PDF design.
