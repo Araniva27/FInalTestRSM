@@ -1,0 +1,567 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Manuel Araniva\\Documents\\RSM Trainee\\FinalTest\\FinalTestRSM\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{776B01EF-3B81-4697-9C91-15E7D18A8A90}|FinalTestRSM.csproj|c:\\users\\manuel araniva\\documents\\rsm trainee\\finaltest\\finaltestrsm\\controllers\\productcategoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{776B01EF-3B81-4697-9C91-15E7D18A8A90}|FinalTestRSM.csproj|solutionrelative:controllers\\productcategoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{776B01EF-3B81-4697-9C91-15E7D18A8A90}|FinalTestRSM.csproj|c:\\users\\manuel araniva\\documents\\rsm trainee\\finaltest\\finaltestrsm\\infraestructure\\configurations\\salesterritoryconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{776B01EF-3B81-4697-9C91-15E7D18A8A90}|FinalTestRSM.csproj|solutionrelative:infraestructure\\configurations\\salesterritoryconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{776B01EF-3B81-4697-9C91-15E7D18A8A90}|FinalTestRSM.csproj|c:\\users\\manuel araniva\\documents\\rsm trainee\\finaltest\\finaltestrsm\\infraestructure\\configurations\\productcategoryconfigurations.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{776B01EF-3B81-4697-9C91-15E7D18A8A90}|FinalTestRSM.csproj|solutionrelative:infraestructure\\configurations\\productcategoryconfigurations.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{776B01EF-3B81-4697-9C91-15E7D18A8A90}|FinalTestRSM.csproj|c:\\users\\manuel araniva\\documents\\rsm trainee\\finaltest\\finaltestrsm\\infraestructure\\repositories\\saleterritoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{776B01EF-3B81-4697-9C91-15E7D18A8A90}|FinalTestRSM.csproj|solutionrelative:infraestructure\\repositories\\saleterritoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{776B01EF-3B81-4697-9C91-15E7D18A8A90}|FinalTestRSM.csproj|c:\\users\\manuel araniva\\documents\\rsm trainee\\finaltest\\finaltestrsm\\infraestructure\\repositories\\salesbycustomerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{776B01EF-3B81-4697-9C91-15E7D18A8A90}|FinalTestRSM.csproj|solutionrelative:infraestructure\\repositories\\salesbycustomerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{776B01EF-3B81-4697-9C91-15E7D18A8A90}|FinalTestRSM.csproj|c:\\users\\manuel araniva\\documents\\rsm trainee\\finaltest\\finaltestrsm\\infraestructure\\repositories\\salereportrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{776B01EF-3B81-4697-9C91-15E7D18A8A90}|FinalTestRSM.csproj|solutionrelative:infraestructure\\repositories\\salereportrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{776B01EF-3B81-4697-9C91-15E7D18A8A90}|FinalTestRSM.csproj|c:\\users\\manuel araniva\\documents\\rsm trainee\\finaltest\\finaltestrsm\\infraestructure\\repositories\\salebyregionreportrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{776B01EF-3B81-4697-9C91-15E7D18A8A90}|FinalTestRSM.csproj|solutionrelative:infraestructure\\repositories\\salebyregionreportrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{776B01EF-3B81-4697-9C91-15E7D18A8A90}|FinalTestRSM.csproj|c:\\users\\manuel araniva\\documents\\rsm trainee\\finaltest\\finaltestrsm\\infraestructure\\repositories\\productcategoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{776B01EF-3B81-4697-9C91-15E7D18A8A90}|FinalTestRSM.csproj|solutionrelative:infraestructure\\repositories\\productcategoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{776B01EF-3B81-4697-9C91-15E7D18A8A90}|FinalTestRSM.csproj|c:\\users\\manuel araniva\\documents\\rsm trainee\\finaltest\\finaltestrsm\\services\\saleterritoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{776B01EF-3B81-4697-9C91-15E7D18A8A90}|FinalTestRSM.csproj|solutionrelative:services\\saleterritoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{776B01EF-3B81-4697-9C91-15E7D18A8A90}|FinalTestRSM.csproj|c:\\users\\manuel araniva\\documents\\rsm trainee\\finaltest\\finaltestrsm\\services\\salesreportservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{776B01EF-3B81-4697-9C91-15E7D18A8A90}|FinalTestRSM.csproj|solutionrelative:services\\salesreportservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{776B01EF-3B81-4697-9C91-15E7D18A8A90}|FinalTestRSM.csproj|c:\\users\\manuel araniva\\documents\\rsm trainee\\finaltest\\finaltestrsm\\services\\salesbyregionreportservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{776B01EF-3B81-4697-9C91-15E7D18A8A90}|FinalTestRSM.csproj|solutionrelative:services\\salesbyregionreportservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{776B01EF-3B81-4697-9C91-15E7D18A8A90}|FinalTestRSM.csproj|c:\\users\\manuel araniva\\documents\\rsm trainee\\finaltest\\finaltestrsm\\services\\salesbycustomerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{776B01EF-3B81-4697-9C91-15E7D18A8A90}|FinalTestRSM.csproj|solutionrelative:services\\salesbycustomerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{776B01EF-3B81-4697-9C91-15E7D18A8A90}|FinalTestRSM.csproj|c:\\users\\manuel araniva\\documents\\rsm trainee\\finaltest\\finaltestrsm\\services\\productcategoriesservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{776B01EF-3B81-4697-9C91-15E7D18A8A90}|FinalTestRSM.csproj|solutionrelative:services\\productcategoriesservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{776B01EF-3B81-4697-9C91-15E7D18A8A90}|FinalTestRSM.csproj|c:\\users\\manuel araniva\\documents\\rsm trainee\\finaltest\\finaltestrsm\\interfaces\\isalesterritoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{776B01EF-3B81-4697-9C91-15E7D18A8A90}|FinalTestRSM.csproj|solutionrelative:interfaces\\isalesterritoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{776B01EF-3B81-4697-9C91-15E7D18A8A90}|FinalTestRSM.csproj|c:\\users\\manuel araniva\\documents\\rsm trainee\\finaltest\\finaltestrsm\\interfaces\\isalesterritoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{776B01EF-3B81-4697-9C91-15E7D18A8A90}|FinalTestRSM.csproj|solutionrelative:interfaces\\isalesterritoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{776B01EF-3B81-4697-9C91-15E7D18A8A90}|FinalTestRSM.csproj|c:\\users\\manuel araniva\\documents\\rsm trainee\\finaltest\\finaltestrsm\\interfaces\\isalesreportservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{776B01EF-3B81-4697-9C91-15E7D18A8A90}|FinalTestRSM.csproj|solutionrelative:interfaces\\isalesreportservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{776B01EF-3B81-4697-9C91-15E7D18A8A90}|FinalTestRSM.csproj|c:\\users\\manuel araniva\\documents\\rsm trainee\\finaltest\\finaltestrsm\\interfaces\\isalesreportrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{776B01EF-3B81-4697-9C91-15E7D18A8A90}|FinalTestRSM.csproj|solutionrelative:interfaces\\isalesreportrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{776B01EF-3B81-4697-9C91-15E7D18A8A90}|FinalTestRSM.csproj|c:\\users\\manuel araniva\\documents\\rsm trainee\\finaltest\\finaltestrsm\\interfaces\\isalesbyregionreportservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{776B01EF-3B81-4697-9C91-15E7D18A8A90}|FinalTestRSM.csproj|solutionrelative:interfaces\\isalesbyregionreportservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{776B01EF-3B81-4697-9C91-15E7D18A8A90}|FinalTestRSM.csproj|c:\\users\\manuel araniva\\documents\\rsm trainee\\finaltest\\finaltestrsm\\interfaces\\isalesbyregionreportrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{776B01EF-3B81-4697-9C91-15E7D18A8A90}|FinalTestRSM.csproj|solutionrelative:interfaces\\isalesbyregionreportrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{776B01EF-3B81-4697-9C91-15E7D18A8A90}|FinalTestRSM.csproj|c:\\users\\manuel araniva\\documents\\rsm trainee\\finaltest\\finaltestrsm\\interfaces\\isalesbycustomerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{776B01EF-3B81-4697-9C91-15E7D18A8A90}|FinalTestRSM.csproj|solutionrelative:interfaces\\isalesbycustomerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{776B01EF-3B81-4697-9C91-15E7D18A8A90}|FinalTestRSM.csproj|c:\\users\\manuel araniva\\documents\\rsm trainee\\finaltest\\finaltestrsm\\interfaces\\isalesbycustomerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{776B01EF-3B81-4697-9C91-15E7D18A8A90}|FinalTestRSM.csproj|solutionrelative:interfaces\\isalesbycustomerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{776B01EF-3B81-4697-9C91-15E7D18A8A90}|FinalTestRSM.csproj|c:\\users\\manuel araniva\\documents\\rsm trainee\\finaltest\\finaltestrsm\\interfaces\\iproductcategoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{776B01EF-3B81-4697-9C91-15E7D18A8A90}|FinalTestRSM.csproj|solutionrelative:interfaces\\iproductcategoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{776B01EF-3B81-4697-9C91-15E7D18A8A90}|FinalTestRSM.csproj|c:\\users\\manuel araniva\\documents\\rsm trainee\\finaltest\\finaltestrsm\\interfaces\\iproductcategoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{776B01EF-3B81-4697-9C91-15E7D18A8A90}|FinalTestRSM.csproj|solutionrelative:interfaces\\iproductcategoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{776B01EF-3B81-4697-9C91-15E7D18A8A90}|FinalTestRSM.csproj|c:\\users\\manuel araniva\\documents\\rsm trainee\\finaltest\\finaltestrsm\\models\\salesreport.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{776B01EF-3B81-4697-9C91-15E7D18A8A90}|FinalTestRSM.csproj|solutionrelative:models\\salesreport.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{776B01EF-3B81-4697-9C91-15E7D18A8A90}|FinalTestRSM.csproj|c:\\users\\manuel araniva\\documents\\rsm trainee\\finaltest\\finaltestrsm\\models\\salesterritory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{776B01EF-3B81-4697-9C91-15E7D18A8A90}|FinalTestRSM.csproj|solutionrelative:models\\salesterritory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{776B01EF-3B81-4697-9C91-15E7D18A8A90}|FinalTestRSM.csproj|c:\\users\\manuel araniva\\documents\\rsm trainee\\finaltest\\finaltestrsm\\models\\salesbyregionreport.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{776B01EF-3B81-4697-9C91-15E7D18A8A90}|FinalTestRSM.csproj|solutionrelative:models\\salesbyregionreport.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{776B01EF-3B81-4697-9C91-15E7D18A8A90}|FinalTestRSM.csproj|c:\\users\\manuel araniva\\documents\\rsm trainee\\finaltest\\finaltestrsm\\models\\salesbycustomerreport.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{776B01EF-3B81-4697-9C91-15E7D18A8A90}|FinalTestRSM.csproj|solutionrelative:models\\salesbycustomerreport.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{776B01EF-3B81-4697-9C91-15E7D18A8A90}|FinalTestRSM.csproj|c:\\users\\manuel araniva\\documents\\rsm trainee\\finaltest\\finaltestrsm\\models\\productcategory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{776B01EF-3B81-4697-9C91-15E7D18A8A90}|FinalTestRSM.csproj|solutionrelative:models\\productcategory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{776B01EF-3B81-4697-9C91-15E7D18A8A90}|FinalTestRSM.csproj|c:\\users\\manuel araniva\\documents\\rsm trainee\\finaltest\\finaltestrsm\\infraestructure\\advworksdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{776B01EF-3B81-4697-9C91-15E7D18A8A90}|FinalTestRSM.csproj|solutionrelative:infraestructure\\advworksdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{776B01EF-3B81-4697-9C91-15E7D18A8A90}|FinalTestRSM.csproj|c:\\users\\manuel araniva\\documents\\rsm trainee\\finaltest\\finaltestrsm\\controllers\\salesbycustomerreportcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{776B01EF-3B81-4697-9C91-15E7D18A8A90}|FinalTestRSM.csproj|solutionrelative:controllers\\salesbycustomerreportcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{776B01EF-3B81-4697-9C91-15E7D18A8A90}|FinalTestRSM.csproj|c:\\users\\manuel araniva\\documents\\rsm trainee\\finaltest\\finaltestrsm\\controllers\\salesbyregionreportcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{776B01EF-3B81-4697-9C91-15E7D18A8A90}|FinalTestRSM.csproj|solutionrelative:controllers\\salesbyregionreportcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{776B01EF-3B81-4697-9C91-15E7D18A8A90}|FinalTestRSM.csproj|c:\\users\\manuel araniva\\documents\\rsm trainee\\finaltest\\finaltestrsm\\controllers\\reportsalescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{776B01EF-3B81-4697-9C91-15E7D18A8A90}|FinalTestRSM.csproj|solutionrelative:controllers\\reportsalescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{776B01EF-3B81-4697-9C91-15E7D18A8A90}|FinalTestRSM.csproj|c:\\users\\manuel araniva\\documents\\rsm trainee\\finaltest\\finaltestrsm\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{776B01EF-3B81-4697-9C91-15E7D18A8A90}|FinalTestRSM.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{776B01EF-3B81-4697-9C91-15E7D18A8A90}|FinalTestRSM.csproj|c:\\users\\manuel araniva\\documents\\rsm trainee\\finaltest\\finaltestrsm\\controllers\\salesterritoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{776B01EF-3B81-4697-9C91-15E7D18A8A90}|FinalTestRSM.csproj|solutionrelative:controllers\\salesterritoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "SaleTerritoryRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Manuel Araniva\\Documents\\RSM Trainee\\FinalTest\\FinalTestRSM\\Infraestructure\\Repositories\\SaleTerritoryRepository.cs",
+              "RelativeDocumentMoniker": "Infraestructure\\Repositories\\SaleTerritoryRepository.cs",
+              "ToolTip": "C:\\Users\\Manuel Araniva\\Documents\\RSM Trainee\\FinalTest\\FinalTestRSM\\Infraestructure\\Repositories\\SaleTerritoryRepository.cs",
+              "RelativeToolTip": "Infraestructure\\Repositories\\SaleTerritoryRepository.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABMAAAA6AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-01T23:28:04.68Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ProductCategoryConfigurations.cs",
+              "DocumentMoniker": "C:\\Users\\Manuel Araniva\\Documents\\RSM Trainee\\FinalTest\\FinalTestRSM\\Infraestructure\\Configurations\\ProductCategoryConfigurations.cs",
+              "RelativeDocumentMoniker": "Infraestructure\\Configurations\\ProductCategoryConfigurations.cs",
+              "ToolTip": "C:\\Users\\Manuel Araniva\\Documents\\RSM Trainee\\FinalTest\\FinalTestRSM\\Infraestructure\\Configurations\\ProductCategoryConfigurations.cs",
+              "RelativeToolTip": "Infraestructure\\Configurations\\ProductCategoryConfigurations.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAA5AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-01T23:23:30.127Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "SalesTerritoryConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\Manuel Araniva\\Documents\\RSM Trainee\\FinalTest\\FinalTestRSM\\Infraestructure\\Configurations\\SalesTerritoryConfiguration.cs",
+              "RelativeDocumentMoniker": "Infraestructure\\Configurations\\SalesTerritoryConfiguration.cs",
+              "ToolTip": "C:\\Users\\Manuel Araniva\\Documents\\RSM Trainee\\FinalTest\\FinalTestRSM\\Infraestructure\\Configurations\\SalesTerritoryConfiguration.cs",
+              "RelativeToolTip": "Infraestructure\\Configurations\\SalesTerritoryConfiguration.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-01T23:23:27.837Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "SaleByRegionReportRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Manuel Araniva\\Documents\\RSM Trainee\\FinalTest\\FinalTestRSM\\Infraestructure\\Repositories\\SaleByRegionReportRepository.cs",
+              "RelativeDocumentMoniker": "Infraestructure\\Repositories\\SaleByRegionReportRepository.cs",
+              "ToolTip": "C:\\Users\\Manuel Araniva\\Documents\\RSM Trainee\\FinalTest\\FinalTestRSM\\Infraestructure\\Repositories\\SaleByRegionReportRepository.cs",
+              "RelativeToolTip": "Infraestructure\\Repositories\\SaleByRegionReportRepository.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABkAAAAPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-01T20:29:51.93Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ProductCategoryRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Manuel Araniva\\Documents\\RSM Trainee\\FinalTest\\FinalTestRSM\\Infraestructure\\Repositories\\ProductCategoryRepository.cs",
+              "RelativeDocumentMoniker": "Infraestructure\\Repositories\\ProductCategoryRepository.cs",
+              "ToolTip": "C:\\Users\\Manuel Araniva\\Documents\\RSM Trainee\\FinalTest\\FinalTestRSM\\Infraestructure\\Repositories\\ProductCategoryRepository.cs",
+              "RelativeToolTip": "Infraestructure\\Repositories\\ProductCategoryRepository.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABQAAABGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-01T03:42:11.257Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ProductCategoriesController.cs",
+              "DocumentMoniker": "C:\\Users\\Manuel Araniva\\Documents\\RSM Trainee\\FinalTest\\FinalTestRSM\\Controllers\\ProductCategoriesController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ProductCategoriesController.cs",
+              "ToolTip": "C:\\Users\\Manuel Araniva\\Documents\\RSM Trainee\\FinalTest\\FinalTestRSM\\Controllers\\ProductCategoriesController.cs",
+              "RelativeToolTip": "Controllers\\ProductCategoriesController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-01T03:35:38.362Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "SalesByCustomerRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Manuel Araniva\\Documents\\RSM Trainee\\FinalTest\\FinalTestRSM\\Infraestructure\\Repositories\\SalesByCustomerRepository.cs",
+              "RelativeDocumentMoniker": "Infraestructure\\Repositories\\SalesByCustomerRepository.cs",
+              "ToolTip": "C:\\Users\\Manuel Araniva\\Documents\\RSM Trainee\\FinalTest\\FinalTestRSM\\Infraestructure\\Repositories\\SalesByCustomerRepository.cs",
+              "RelativeToolTip": "Infraestructure\\Repositories\\SalesByCustomerRepository.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABIAAAA6AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-02T19:29:21.173Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "SaleReportRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Manuel Araniva\\Documents\\RSM Trainee\\FinalTest\\FinalTestRSM\\Infraestructure\\Repositories\\SaleReportRepository.cs",
+              "RelativeDocumentMoniker": "Infraestructure\\Repositories\\SaleReportRepository.cs",
+              "ToolTip": "C:\\Users\\Manuel Araniva\\Documents\\RSM Trainee\\FinalTest\\FinalTestRSM\\Infraestructure\\Repositories\\SaleReportRepository.cs",
+              "RelativeToolTip": "Infraestructure\\Repositories\\SaleReportRepository.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAAwBAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-30T21:27:29.129Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "SaleTerritoryService.cs",
+              "DocumentMoniker": "C:\\Users\\Manuel Araniva\\Documents\\RSM Trainee\\FinalTest\\FinalTestRSM\\Services\\SaleTerritoryService.cs",
+              "RelativeDocumentMoniker": "Services\\SaleTerritoryService.cs",
+              "ToolTip": "C:\\Users\\Manuel Araniva\\Documents\\RSM Trainee\\FinalTest\\FinalTestRSM\\Services\\SaleTerritoryService.cs",
+              "RelativeToolTip": "Services\\SaleTerritoryService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAA/AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-01T23:35:50.885Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "SalesReportServices.cs",
+              "DocumentMoniker": "C:\\Users\\Manuel Araniva\\Documents\\RSM Trainee\\FinalTest\\FinalTestRSM\\Services\\SalesReportServices.cs",
+              "RelativeDocumentMoniker": "Services\\SalesReportServices.cs",
+              "ToolTip": "C:\\Users\\Manuel Araniva\\Documents\\RSM Trainee\\FinalTest\\FinalTestRSM\\Services\\SalesReportServices.cs",
+              "RelativeToolTip": "Services\\SalesReportServices.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABkAAAAzAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-30T20:23:44.118Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "SalesByRegionReportService.cs",
+              "DocumentMoniker": "C:\\Users\\Manuel Araniva\\Documents\\RSM Trainee\\FinalTest\\FinalTestRSM\\Services\\SalesByRegionReportService.cs",
+              "RelativeDocumentMoniker": "Services\\SalesByRegionReportService.cs",
+              "ToolTip": "C:\\Users\\Manuel Araniva\\Documents\\RSM Trainee\\FinalTest\\FinalTestRSM\\Services\\SalesByRegionReportService.cs",
+              "RelativeToolTip": "Services\\SalesByRegionReportService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-01T20:24:48.418Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "SalesByCustomerService.cs",
+              "DocumentMoniker": "C:\\Users\\Manuel Araniva\\Documents\\RSM Trainee\\FinalTest\\FinalTestRSM\\Services\\SalesByCustomerService.cs",
+              "RelativeDocumentMoniker": "Services\\SalesByCustomerService.cs",
+              "ToolTip": "C:\\Users\\Manuel Araniva\\Documents\\RSM Trainee\\FinalTest\\FinalTestRSM\\Services\\SalesByCustomerService.cs",
+              "RelativeToolTip": "Services\\SalesByCustomerService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAACDAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-02T19:43:51.771Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ProductCategoriesService.cs",
+              "DocumentMoniker": "C:\\Users\\Manuel Araniva\\Documents\\RSM Trainee\\FinalTest\\FinalTestRSM\\Services\\ProductCategoriesService.cs",
+              "RelativeDocumentMoniker": "Services\\ProductCategoriesService.cs",
+              "ToolTip": "C:\\Users\\Manuel Araniva\\Documents\\RSM Trainee\\FinalTest\\FinalTestRSM\\Services\\ProductCategoriesService.cs",
+              "RelativeToolTip": "Services\\ProductCategoriesService.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABgAAAAzAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-01T03:37:55.025Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "ISalesTerritoryService.cs",
+              "DocumentMoniker": "C:\\Users\\Manuel Araniva\\Documents\\RSM Trainee\\FinalTest\\FinalTestRSM\\Interfaces\\ISalesTerritoryService.cs",
+              "RelativeDocumentMoniker": "Interfaces\\ISalesTerritoryService.cs",
+              "ToolTip": "C:\\Users\\Manuel Araniva\\Documents\\RSM Trainee\\FinalTest\\FinalTestRSM\\Interfaces\\ISalesTerritoryService.cs",
+              "RelativeToolTip": "Interfaces\\ISalesTerritoryService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAgAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-01T23:26:11.983Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "ISalesTerritoryRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Manuel Araniva\\Documents\\RSM Trainee\\FinalTest\\FinalTestRSM\\Interfaces\\ISalesTerritoryRepository.cs",
+              "RelativeDocumentMoniker": "Interfaces\\ISalesTerritoryRepository.cs",
+              "ToolTip": "C:\\Users\\Manuel Araniva\\Documents\\RSM Trainee\\FinalTest\\FinalTestRSM\\Interfaces\\ISalesTerritoryRepository.cs",
+              "RelativeToolTip": "Interfaces\\ISalesTerritoryRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-01T23:26:30.224Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "ISalesReportService.cs",
+              "DocumentMoniker": "C:\\Users\\Manuel Araniva\\Documents\\RSM Trainee\\FinalTest\\FinalTestRSM\\Interfaces\\ISalesReportService.cs",
+              "RelativeDocumentMoniker": "Interfaces\\ISalesReportService.cs",
+              "ToolTip": "C:\\Users\\Manuel Araniva\\Documents\\RSM Trainee\\FinalTest\\FinalTestRSM\\Interfaces\\ISalesReportService.cs",
+              "RelativeToolTip": "Interfaces\\ISalesReportService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-01T20:00:47.82Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "ISalesReportRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Manuel Araniva\\Documents\\RSM Trainee\\FinalTest\\FinalTestRSM\\Interfaces\\ISalesReportRepository.cs",
+              "RelativeDocumentMoniker": "Interfaces\\ISalesReportRepository.cs",
+              "ToolTip": "C:\\Users\\Manuel Araniva\\Documents\\RSM Trainee\\FinalTest\\FinalTestRSM\\Interfaces\\ISalesReportRepository.cs",
+              "RelativeToolTip": "Interfaces\\ISalesReportRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAACJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-30T21:21:35.789Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "ISalesByRegionReportService.cs",
+              "DocumentMoniker": "C:\\Users\\Manuel Araniva\\Documents\\RSM Trainee\\FinalTest\\FinalTestRSM\\Interfaces\\ISalesByRegionReportService.cs",
+              "RelativeDocumentMoniker": "Interfaces\\ISalesByRegionReportService.cs",
+              "ToolTip": "C:\\Users\\Manuel Araniva\\Documents\\RSM Trainee\\FinalTest\\FinalTestRSM\\Interfaces\\ISalesByRegionReportService.cs",
+              "RelativeToolTip": "Interfaces\\ISalesByRegionReportService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAYAAACsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-01T19:59:44.551Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "ISalesByRegionReportRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Manuel Araniva\\Documents\\RSM Trainee\\FinalTest\\FinalTestRSM\\Interfaces\\ISalesByRegionReportRepository.cs",
+              "RelativeDocumentMoniker": "Interfaces\\ISalesByRegionReportRepository.cs",
+              "ToolTip": "C:\\Users\\Manuel Araniva\\Documents\\RSM Trainee\\FinalTest\\FinalTestRSM\\Interfaces\\ISalesByRegionReportRepository.cs",
+              "RelativeToolTip": "Interfaces\\ISalesByRegionReportRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-01T20:00:35.207Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "ISalesByCustomerService.cs",
+              "DocumentMoniker": "C:\\Users\\Manuel Araniva\\Documents\\RSM Trainee\\FinalTest\\FinalTestRSM\\Interfaces\\ISalesByCustomerService.cs",
+              "RelativeDocumentMoniker": "Interfaces\\ISalesByCustomerService.cs",
+              "ToolTip": "C:\\Users\\Manuel Araniva\\Documents\\RSM Trainee\\FinalTest\\FinalTestRSM\\Interfaces\\ISalesByCustomerService.cs",
+              "RelativeToolTip": "Interfaces\\ISalesByCustomerService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAACsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-02T19:25:43.928Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "ISalesByCustomerRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Manuel Araniva\\Documents\\RSM Trainee\\FinalTest\\FinalTestRSM\\Interfaces\\ISalesByCustomerRepository.cs",
+              "RelativeDocumentMoniker": "Interfaces\\ISalesByCustomerRepository.cs",
+              "ToolTip": "C:\\Users\\Manuel Araniva\\Documents\\RSM Trainee\\FinalTest\\FinalTestRSM\\Interfaces\\ISalesByCustomerRepository.cs",
+              "RelativeToolTip": "Interfaces\\ISalesByCustomerRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-02T19:27:38.601Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "IProductCategoryService.cs",
+              "DocumentMoniker": "C:\\Users\\Manuel Araniva\\Documents\\RSM Trainee\\FinalTest\\FinalTestRSM\\Interfaces\\IProductCategoryService.cs",
+              "RelativeDocumentMoniker": "Interfaces\\IProductCategoryService.cs",
+              "ToolTip": "C:\\Users\\Manuel Araniva\\Documents\\RSM Trainee\\FinalTest\\FinalTestRSM\\Interfaces\\IProductCategoryService.cs",
+              "RelativeToolTip": "Interfaces\\IProductCategoryService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-01T03:54:59.211Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "IProductCategoryRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Manuel Araniva\\Documents\\RSM Trainee\\FinalTest\\FinalTestRSM\\Interfaces\\IProductCategoryRepository.cs",
+              "RelativeDocumentMoniker": "Interfaces\\IProductCategoryRepository.cs",
+              "ToolTip": "C:\\Users\\Manuel Araniva\\Documents\\RSM Trainee\\FinalTest\\FinalTestRSM\\Interfaces\\IProductCategoryRepository.cs",
+              "RelativeToolTip": "Interfaces\\IProductCategoryRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-01T03:37:44.035Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "SalesReport.cs",
+              "DocumentMoniker": "C:\\Users\\Manuel Araniva\\Documents\\RSM Trainee\\FinalTest\\FinalTestRSM\\Models\\SalesReport.cs",
+              "RelativeDocumentMoniker": "Models\\SalesReport.cs",
+              "ToolTip": "C:\\Users\\Manuel Araniva\\Documents\\RSM Trainee\\FinalTest\\FinalTestRSM\\Models\\SalesReport.cs",
+              "RelativeToolTip": "Models\\SalesReport.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAzAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-30T17:46:33.258Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "SalesTerritory.cs",
+              "DocumentMoniker": "C:\\Users\\Manuel Araniva\\Documents\\RSM Trainee\\FinalTest\\FinalTestRSM\\Models\\SalesTerritory.cs",
+              "RelativeDocumentMoniker": "Models\\SalesTerritory.cs",
+              "ToolTip": "C:\\Users\\Manuel Araniva\\Documents\\RSM Trainee\\FinalTest\\FinalTestRSM\\Models\\SalesTerritory.cs",
+              "RelativeToolTip": "Models\\SalesTerritory.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-01T23:21:54.924Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "SalesByRegionReport.cs",
+              "DocumentMoniker": "C:\\Users\\Manuel Araniva\\Documents\\RSM Trainee\\FinalTest\\FinalTestRSM\\Models\\SalesByRegionReport.cs",
+              "RelativeDocumentMoniker": "Models\\SalesByRegionReport.cs",
+              "ToolTip": "C:\\Users\\Manuel Araniva\\Documents\\RSM Trainee\\FinalTest\\FinalTestRSM\\Models\\SalesByRegionReport.cs",
+              "RelativeToolTip": "Models\\SalesByRegionReport.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-01T20:01:06.492Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "SalesByCustomerReport.cs",
+              "DocumentMoniker": "C:\\Users\\Manuel Araniva\\Documents\\RSM Trainee\\FinalTest\\FinalTestRSM\\Models\\SalesByCustomerReport.cs",
+              "RelativeDocumentMoniker": "Models\\SalesByCustomerReport.cs",
+              "ToolTip": "C:\\Users\\Manuel Araniva\\Documents\\RSM Trainee\\FinalTest\\FinalTestRSM\\Models\\SalesByCustomerReport.cs",
+              "RelativeToolTip": "Models\\SalesByCustomerReport.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-02T19:21:50.996Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "ProductCategory.cs",
+              "DocumentMoniker": "C:\\Users\\Manuel Araniva\\Documents\\RSM Trainee\\FinalTest\\FinalTestRSM\\Models\\ProductCategory.cs",
+              "RelativeDocumentMoniker": "Models\\ProductCategory.cs",
+              "ToolTip": "C:\\Users\\Manuel Araniva\\Documents\\RSM Trainee\\FinalTest\\FinalTestRSM\\Models\\ProductCategory.cs",
+              "RelativeToolTip": "Models\\ProductCategory.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-01T03:37:22.93Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "AdvWorksDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Manuel Araniva\\Documents\\RSM Trainee\\FinalTest\\FinalTestRSM\\Infraestructure\\AdvWorksDbContext.cs",
+              "RelativeDocumentMoniker": "Infraestructure\\AdvWorksDbContext.cs",
+              "ToolTip": "C:\\Users\\Manuel Araniva\\Documents\\RSM Trainee\\FinalTest\\FinalTestRSM\\Infraestructure\\AdvWorksDbContext.cs",
+              "RelativeToolTip": "Infraestructure\\AdvWorksDbContext.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAQwCcAAABKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-30T15:26:58.185Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "SalesByCustomerReportController.cs",
+              "DocumentMoniker": "C:\\Users\\Manuel Araniva\\Documents\\RSM Trainee\\FinalTest\\FinalTestRSM\\Controllers\\SalesByCustomerReportController.cs",
+              "RelativeDocumentMoniker": "Controllers\\SalesByCustomerReportController.cs",
+              "ToolTip": "C:\\Users\\Manuel Araniva\\Documents\\RSM Trainee\\FinalTest\\FinalTestRSM\\Controllers\\SalesByCustomerReportController.cs",
+              "RelativeToolTip": "Controllers\\SalesByCustomerReportController.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAACAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-02T19:53:25.916Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "SalesByRegionReportController.cs",
+              "DocumentMoniker": "C:\\Users\\Manuel Araniva\\Documents\\RSM Trainee\\FinalTest\\FinalTestRSM\\Controllers\\SalesByRegionReportController.cs",
+              "RelativeDocumentMoniker": "Controllers\\SalesByRegionReportController.cs",
+              "ToolTip": "C:\\Users\\Manuel Araniva\\Documents\\RSM Trainee\\FinalTest\\FinalTestRSM\\Controllers\\SalesByRegionReportController.cs",
+              "RelativeToolTip": "Controllers\\SalesByRegionReportController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAACWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-01T21:26:54.457Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Manuel Araniva\\Documents\\RSM Trainee\\FinalTest\\FinalTestRSM\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\Manuel Araniva\\Documents\\RSM Trainee\\FinalTest\\FinalTestRSM\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAABYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-30T15:16:42.038Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "ReportSalesController.cs",
+              "DocumentMoniker": "C:\\Users\\Manuel Araniva\\Documents\\RSM Trainee\\FinalTest\\FinalTestRSM\\Controllers\\ReportSalesController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ReportSalesController.cs",
+              "ToolTip": "C:\\Users\\Manuel Araniva\\Documents\\RSM Trainee\\FinalTest\\FinalTestRSM\\Controllers\\ReportSalesController.cs",
+              "RelativeToolTip": "Controllers\\ReportSalesController.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAABUAAAClAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-30T18:06:12.04Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "SalesTerritoriesController.cs",
+              "DocumentMoniker": "C:\\Users\\Manuel Araniva\\Documents\\RSM Trainee\\FinalTest\\FinalTestRSM\\Controllers\\SalesTerritoriesController.cs",
+              "RelativeDocumentMoniker": "Controllers\\SalesTerritoriesController.cs",
+              "ToolTip": "C:\\Users\\Manuel Araniva\\Documents\\RSM Trainee\\FinalTest\\FinalTestRSM\\Controllers\\SalesTerritoriesController.cs",
+              "RelativeToolTip": "Controllers\\SalesTerritoriesController.cs",
+              "ViewState": "AQIAAAIAAAAAAAAAAAAiwBYAAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-01T23:45:13.181Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

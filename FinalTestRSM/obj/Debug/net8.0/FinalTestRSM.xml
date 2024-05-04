@@ -1,0 +1,407 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>FinalTestRSM</name>
+    </assembly>
+    <members>
+        <member name="M:FinalTestRSM.Controllers.ProductCategoryController.GetSalesData">
+            <summary>
+            Get all products categories        
+            </summary>
+            <returns>
+            The GetSalesData method is returning a list of all product categories retrieved from the
+            ProductCategoryService. If the retrieval is successful, it returns an OK status along with
+            the categories. If an exception occurs during the process, it returns a 500 Internal Server
+            Error status along with an error message indicating the internal server error.
+            </returns>
+        </member>
+        <member name="M:FinalTestRSM.Controllers.ReportSalesController.GetSalesData(System.String,System.String,System.String,System.Int32,System.Int32)">
+            <summary>
+            Get information about sales report    
+            </summary>
+            <param name="productCategory">
+            This parameter is used to filter sales by product category
+            </param>
+            <param name="startDate">
+            This parameter is used to specify the start date for filtering sales data
+            </param>
+            <param name="endDate">
+            This parameter is used to specify the end date for filtering sales data    
+            </param>
+            <param name="pageNumber">T
+            This parameter is used to specify the page number of the sales data to be retrieved. 
+            </param>
+            <param name="pageSize">
+            This parameter specifies the number of items to be included in each page of the sales report data. 
+            </param>
+            <returns>
+            The method `GetSalesData` is returning an `IActionResult` which can be either an
+            `OkObjectResult` with the sales data if the operation is successful, or a `StatusCodeResult`
+            with status code 500 and an error message if an exception occurs during the operation.
+            </returns>
+        </member>
+        <member name="M:FinalTestRSM.Controllers.SalesByCustomerReportController.GetSalesByCustomer(System.String,System.String,System.String,System.String,System.Int32,System.Int32)">
+            <summary>
+            This endpoint retrieves sales data by customer based on specified parameters       
+            </summary>
+            <param name="customerName">
+            Parameter used to filter sales data by a specific customer's name. If provided, the API will return sales data related to the
+            specified customer only.</param>
+            <param name="productName">
+            This parameter is used to filter the sales data based on a specific product name.
+            data related to that specific product.</param>
+            <param name="startDate">
+            This parameter is used to specify the start date for filtering sales data
+            </param>
+            <param name="endDate">
+            This parameter is used to specify the end date for filtering sales data    
+            </param>
+            <param name="pageNumber">T
+            This parameter is used to specify the page number of the sales data to be retrieved. 
+            </param>
+            <param name="pageSize">
+            This parameter specifies the number of items to be included in each page of the sales report data. 
+            </param>
+            <returns>
+            The `GetSalesByCustomer` method returns an `IActionResult`. If the method executes
+            successfully, it returns an `OkObjectResult` with the sales data for the specified customer.
+            If an exception occurs during the execution, it returns a `StatusCodeResult` with status
+            code 500 and an error message indicating an internal server error.
+            </returns>
+        </member>
+        <member name="M:FinalTestRSM.Controllers.SalesByRegionReportController.GetSalesByRegionData(System.String,System.String,System.String,System.String,System.Int32,System.Int32)">
+            <summary>
+            This endpoint retrieves sales data by region based on specified parameters
+            </summary>
+            <param name="productCategory">
+            This parameter is used to filter the sales data by a specific product category.</param>
+            <param name="startDate">
+            This parameter is used to specify the start date for filtering sales data
+            </param>
+            <param name="endDate">
+            This parameter is used to specify the end date for filtering sales data    
+            </param>
+            <param name="pageNumber">T
+            This parameter is used to specify the page number of the sales data to be retrieved. 
+            </param>
+            <param name="pageSize">
+            This parameter specifies the number of items to be included in each page of the sales report data. 
+            </param>
+            <returns>
+            The `GetSalesByRegionData` method returns an `IActionResult` which can be either an
+            `OkObjectResult` with the sales data or a `StatusCodeResult` with a status code of 500 and
+            an error message in case of an exception
+            </returns>
+        </member>
+        <member name="M:FinalTestRSM.Controllers.SalesTerritoriesController.GetSalesTerritories">
+            <summary>
+            This endpoint retrieves data about the territories
+            </summary>
+            <returns>
+            The GetSalesTerritories method is returning a list of sales territories. If the method
+            executes successfully, it will return an Ok response with the list of territories. If an
+            exception occurs during the execution, it will return a 500 Internal Server Error response
+            with the error message.
+            </returns>
+        </member>
+        <member name="T:FinalTestRSM.Infraestructure.Repositories.ProductCategoryRepository">
+            <summary>
+            This class implements the IProductCategoryRepository interface and provides
+            functionality for accessing product categories.
+            </summary>
+        </member>
+        <member name="M:FinalTestRSM.Infraestructure.Repositories.ProductCategoryRepository.#ctor(FinalTestRSM.Infraestructure.AdvWorksDbContext)">
+            <summary>
+            Constructor for ProductCategoryRepository class
+            </summary>
+            <param name="context">An instance of AdvWorksDbContext for database access</param>
+        </member>
+        <member name="M:FinalTestRSM.Infraestructure.Repositories.ProductCategoryRepository.GetAllCategories">
+            <summary>
+            Retrieves all product categories asynchronously
+            </summary>
+            <returns>A task representing the asynchronous operation that returns a list of product categories</returns>
+        </member>
+        <member name="T:FinalTestRSM.Infraestructure.Repositories.SaleByRegionReportRepository">
+            <summary>
+            This class implements the ISalesByRegionReportRepository interface and provides
+            functionality for accessing sales data by region report
+            </summary>
+        </member>
+        <member name="M:FinalTestRSM.Infraestructure.Repositories.SaleByRegionReportRepository.#ctor(FinalTestRSM.Infraestructure.AdvWorksDbContext)">
+            <summary>
+            Constructor for SaleByRegionReportRepository class
+            </summary>
+            <param name="context">An instance of AdvWorksDbContext for database access</param>
+        </member>
+        <member name="M:FinalTestRSM.Infraestructure.Repositories.SaleByRegionReportRepository.GetSalesByRegionReportData(System.String,System.String,System.String,System.String,System.Int32,System.Int32)">
+            <summary>
+            Retrieves sales data by region report asynchronously based on specified parameters
+            </summary>
+            <param name="productCategory">The category of the product to filter the sales data</param>
+            <param name="startDate">The start date to filter the sales data</param>
+            <param name="endDate">The end date to filter the sales data</param>
+            <param name="regionName">The name of the region to filter the sales data</param>
+            <param name="pageNumber">The page number for pagination</param>
+            <param name="pageSize">The page size for pagination</param>
+            <returns>A task representing the asynchronous operation that returns a list of sales data by region report</returns>
+        </member>
+        <member name="T:FinalTestRSM.Infraestructure.Repositories.SaleReportRepository">
+            <summary>
+            This class implements the ISalesReportRepository interface and provides
+            functionality for accessing sales report data.
+            </summary>
+        </member>
+        <member name="M:FinalTestRSM.Infraestructure.Repositories.SaleReportRepository.#ctor(FinalTestRSM.Infraestructure.AdvWorksDbContext)">
+            <summary>
+            Constructor for SaleReportRepository class.
+            </summary>
+            <param name="context">An instance of AdvWorksDbContext for database access.</param>
+        </member>
+        <member name="M:FinalTestRSM.Infraestructure.Repositories.SaleReportRepository.GetSalesReportData(System.String,System.String,System.String,System.Int32,System.Int32)">
+            <summary>
+            Retrieves sales report data asynchronously based on specified parameters
+            </summary>
+            <param name="productCategory">The category of the product to filter the sales report data</param>
+            <param name="startDate">The start date to filter the sales report data</param>
+            <param name="endDate">The end date to filter the sales report data</param>
+            <param name="pageNumber">The page number for pagination</param>
+            <param name="pageSize">The page size for pagination</param>
+            <returns>A task representing the asynchronous operation that returns a list of sales report data</returns>
+        </member>
+        <member name="F:FinalTestRSM.Infraestructure.Repositories.SalesByCustomerRepository._context">
+            <summary>
+            This class implements the ISalesByCustomerRepository interface and provides
+            functionality for accessing sales data by customer.
+            </summary>
+        </member>
+        <member name="M:FinalTestRSM.Infraestructure.Repositories.SalesByCustomerRepository.#ctor(FinalTestRSM.Infraestructure.AdvWorksDbContext)">
+            <summary>
+            Constructor for SalesByCustomerRepository class.
+            </summary>
+            <param name="context">An instance of AdvWorksDbContext for database access.</param>
+        </member>
+        <member name="M:FinalTestRSM.Infraestructure.Repositories.SalesByCustomerRepository.GetSalesByCustomerData(System.String,System.String,System.String,System.String,System.Int32,System.Int32)">
+            <summary>
+            Retrieves sales data by customer asynchronously based on specified parameters
+            </summary>
+            <param name="customerName">The name of the customer to filter the sales data</param>
+            <param name="productName">The name of the product to filter the sales data</param>
+            <param name="startDate">The start date to filter the sales data</param>
+            <param name="endDate">The end date to filter the sales data</param>
+            <param name="pageNumber">The page number for pagination</param>
+            <param name="pageSize">The page size for pagination</param>
+            <returns>A task representing the asynchronous operation that returns a list of sales data by customer</returns>
+        </member>
+        <member name="T:FinalTestRSM.Infraestructure.Repositories.SaleTerritoryRepository">
+            <summary>
+            This class implements the ISalesTerritoryRepository interface and provides
+            functionality for accessing sales territories.
+            </summary>
+        </member>
+        <member name="M:FinalTestRSM.Infraestructure.Repositories.SaleTerritoryRepository.#ctor(FinalTestRSM.Infraestructure.AdvWorksDbContext)">
+            <summary>
+            Constructor for SaleTerritoryRepository class.
+            </summary>
+            <param name="context">An instance of AdvWorksDbContext for database access.</param>
+        </member>
+        <member name="T:FinalTestRSM.Interfaces.IProductCategoryRepository">
+            This interface defines a repository for retrieving product categories
+        </member>
+        <member name="M:FinalTestRSM.Interfaces.IProductCategoryRepository.GetAllCategories">
+            <summary>
+            Retrieves all product categories asynchronously.
+            </summary>
+            <returns>A task representing the asynchronous operation that returns a list of product categories.</returns>
+        </member>
+        <member name="M:FinalTestRSM.Interfaces.IProductCategoryService.GetAllCategories">
+            <summary>
+            Retrieves all product categories asynchronously.
+            </summary>
+            <returns>A task representing the asynchronous operation that returns a list of product categories</returns>
+        </member>
+        <member name="M:FinalTestRSM.Interfaces.ISalesByCustomerRepository.GetSalesByCustomerData(System.String,System.String,System.String,System.String,System.Int32,System.Int32)">
+            <summary>
+            Retrieves sales data by customer asynchronously based on specified parameters
+            </summary>
+            <param name="customerName">The name of the customer to filter the sales data</param>
+            <param name="productName">The name of the product to filter the sales data</param>
+            <param name="startDate">The start date to filter the sales data</param>
+            <param name="endDate">The end date to filter the sales data</param>
+            <param name="pageNumber">The page number for pagination</param>
+            <param name="pageSize">The page size for pagination</param>
+            <returns>A task representing the asynchronous operation that returns a list of sales by customer reports</returns>
+        </member>
+        <member name="M:FinalTestRSM.Interfaces.ISalesByCustomerService.GetSalesByCustomerData(System.String,System.String,System.String,System.String,System.Int32,System.Int32)">
+            <summary>
+            Retrieves sales data by customer asynchronously based on specified parameters
+            </summary>
+            <param name="customerName">The name of the customer to filter the sales data</param>
+            <param name="productName">The name of the product to filter the sales data</param>
+            <param name="startDate">The start date to filter the sales data</param>
+            <param name="endDate">The end date to filter the sales data</param>
+            <param name="pageNumber">The page number for pagination</param>
+            <param name="pageSize">The page size for pagination</param>
+            <returns>A task representing the asynchronous operation that returns a list of sales by customer reports</returns>
+        </member>
+        <member name="M:FinalTestRSM.Interfaces.ISalesByRegionReportRepository.GetSalesByRegionReportData(System.String,System.String,System.String,System.String,System.Int32,System.Int32)">
+            <summary>
+            Retrieves sales data by region report asynchronously based on specified parameters
+            </summary>
+            <param name="productCategory">The category of the product to filter the sales data</param>
+            <param name="startDate">The start date to filter the sales data</param>
+            <param name="endDate">The end date to filter the sales data</param>
+            <param name="regionName">The name of the region to filter the sales data</param>
+            <param name="pageNumber">The page number for pagination</param>
+            <param name="pageSize">The page size for pagination</param>
+            <returns>A task representing the asynchronous operation that returns a list of sales by region reports</returns>
+        </member>
+        <member name="M:FinalTestRSM.Interfaces.ISalesByRegionReportService.GetSalesByRegionReportData(System.String,System.String,System.String,System.String,System.Int32,System.Int32)">
+            <summary>
+            Retrieves sales data by region report asynchronously based on specified parameters
+            </summary>
+            <param name="productCategory">The category of the product to filter the sales data</param>
+            <param name="startDate">The start date to filter the sales data</param>
+            <param name="endDate">The end date to filter the sales data</param>
+            <param name="regionName">The name of the region to filter the sales data</param>
+            <param name="pageNumber">The page number for pagination</param>
+            <param name="pageSize">The page size for pagination</param>
+            <returns>A task representing the asynchronous operation that returns a list of sales by region reports</returns>
+        </member>
+        <member name="M:FinalTestRSM.Interfaces.ISalesReportRepository.GetSalesReportData(System.String,System.String,System.String,System.Int32,System.Int32)">
+            <summary>
+            Retrieves sales report data asynchronously based on specified parameters
+            </summary>
+            <param name="productCategory">The category of the product to filter the sales report data</param>
+            <param name="startDate">The start date to filter the sales report data</param>
+            <param name="endDate">The end date to filter the sales report data</param>
+            <param name="pageNumber">The page number for pagination.</param>
+            <param name="pageSize">The page size for pagination</param>
+            <returns>A task representing the asynchronous operation that returns a list of sales report data</returns>
+        </member>
+        <member name="M:FinalTestRSM.Interfaces.ISalesReportService.GetSalesReportData(System.String,System.String,System.String,System.Int32,System.Int32)">
+            <summary>
+            Retrieves sales report data asynchronously based on specified parameters
+            </summary>
+            <param name="productCategory">The category of the product to filter the sales report data</param>
+            <param name="startDate">The start date to filter the sales report data</param>
+            <param name="endDate">The end date to filter the sales report data</param>
+            <param name="pageNumber">The page number for pagination</param>
+            <param name="pageSize">The page size for pagination</param>
+            <returns>A task representing the asynchronous operation that returns a list of sales report data</returns>
+        </member>
+        <member name="M:FinalTestRSM.Interfaces.ISalesTerritoryRepository.GetSalesTerritories">
+            <summary>
+            Retrieves sales territories asynchronously.
+            </summary>
+            <returns>A task representing the asynchronous operation that returns a list of sales territories.</returns>
+        </member>
+        <member name="M:FinalTestRSM.Interfaces.ISalesTerritoryService.GetSalesTerritories">
+            <summary>
+            Retrieves sales territories asynchronously
+            </summary>
+            <returns>A task representing the asynchronous operation that returns a list of sales territories</returns>
+        </member>
+        <member name="M:FinalTestRSM.Services.ProductCategoryService.#ctor(FinalTestRSM.Interfaces.IProductCategoryRepository)">
+            <summary>
+            Constructor for ProductCategoryService class
+            </summary>
+            <param name="repository">An instance of IProductCategoryRepository for data access</param>
+        </member>
+        <member name="M:FinalTestRSM.Services.ProductCategoryService.GetAllCategories">
+            <summary>
+            Retrieves all product categories asynchronously
+            </summary>
+            <returns>A task representing the asynchronous operation that returns a list of product categories</returns>
+        </member>
+        <member name="T:FinalTestRSM.Services.SalesByCustomerService">
+            <summary>
+            This C# class implements the ISalesByCustomerService interface and provides functionality
+            for retrieving sales data by customer
+            </summary>
+        </member>
+        <member name="M:FinalTestRSM.Services.SalesByCustomerService.#ctor(FinalTestRSM.Interfaces.ISalesByCustomerRepository)">
+            <summary>
+            Constructor for SalesByCustomerService class
+            </summary>
+            <param name="repository">An instance of ISalesByCustomerRepository for data access</param>
+        </member>
+        <member name="M:FinalTestRSM.Services.SalesByCustomerService.GetSalesByCustomerData(System.String,System.String,System.String,System.String,System.Int32,System.Int32)">
+            <summary>
+            Retrieves sales data by customer asynchronously based on specified parameters
+            </summary>
+            <param name="customerName">The name of the customer to filter the sales data</param>
+            <param name="productName">The name of the product to filter the sales data</param>
+            <param name="startDate">The start date to filter the sales data</param>
+            <param name="endDate">The end date to filter the sales data</param>
+            <param name="pageNumber">The page number for pagination</param>
+            <param name="pageSize">The page size for pagination</param>
+            <returns>A task representing the asynchronous operation that returns a list of sales by customer reports</returns>
+        </member>
+        <member name="T:FinalTestRSM.Services.SalesByRegionReportService">
+            <summary>
+            This class implements the ISalesByRegionReportService interface and provides functionality
+            for retrieving sales data by region report.
+            </summary>
+        </member>
+        <member name="M:FinalTestRSM.Services.SalesByRegionReportService.#ctor(FinalTestRSM.Interfaces.ISalesByRegionReportRepository)">
+            <summary>
+            Constructor for SalesByRegionReportService class
+            </summary>
+            <param name="repository">An instance of ISalesByRegionReportRepository for data access</param>
+        </member>
+        <member name="M:FinalTestRSM.Services.SalesByRegionReportService.GetSalesByRegionReportData(System.String,System.String,System.String,System.String,System.Int32,System.Int32)">
+            <summary>
+            Retrieves sales data by region report asynchronously based on specified parameters
+            </summary>
+            <param name="productCategory">The category of the product to filter the sales data</param>
+            <param name="startDate">The start date to filter the sales data</param>
+            <param name="endDate">The end date to filter the sales data</param>
+            <param name="regionName">The name of the region to filter the sales data</param>
+            <param name="pageNumber">The page number for pagination</param>
+            <param name="pageSize">The page size for pagination</param>
+            <returns>A task representing the asynchronous operation that returns a list of sales by region reports</returns>
+        </member>
+        <member name="T:FinalTestRSM.Services.SalesReportServices">
+            <summary>
+            This class implements the ISalesReportService interface and provides functionality
+            for retrieving sales report data.
+            </summary>
+        </member>
+        <member name="M:FinalTestRSM.Services.SalesReportServices.#ctor(FinalTestRSM.Interfaces.ISalesReportRepository)">
+            <summary>
+            Constructor for SalesReportServices class.
+            </summary>
+            <param name="repository">An instance of ISalesReportRepository for data access.</param>
+        </member>
+        <member name="M:FinalTestRSM.Services.SalesReportServices.GetSalesReportData(System.String,System.String,System.String,System.Int32,System.Int32)">
+            <summary>
+            Retrieves sales report data asynchronously based on specified parameters
+            </summary>
+            <param name="productCategory">The category of the product to filter the sales data</param>
+            <param name="startDate">The start date to filter the sales data</param>
+            <param name="endDate">The end date to filter the sales data</param>
+            <param name="pageNumber">The page number for pagination</param>
+            <param name="pageSize">The page size for pagination</param>
+            <returns>A task representing the asynchronous operation that returns a list of sales report data</returns>
+        </member>
+        <member name="T:FinalTestRSM.Services.SaleTerritoryService">
+            <summary>
+            This class implements the ISalesTerritoryService interface and provides functionality
+            for retrieving sales territories.
+            </summary>
+        </member>
+        <member name="M:FinalTestRSM.Services.SaleTerritoryService.#ctor(FinalTestRSM.Interfaces.ISalesTerritoryRepository)">
+            <summary>
+            Constructor for SaleTerritoryService class
+            </summary>
+            <param name="salesTerritoryRepository">An instance of ISalesTerritoryRepository for data access</param>
+        </member>
+        <member name="M:FinalTestRSM.Services.SaleTerritoryService.GetSalesTerritories">
+            <summary>
+            Retrieves sales territories asynchronously
+            </summary>
+            <returns>A task representing the asynchronous operation that returns a list of sales territories</returns>
+        </member>
+    </members>
+</doc>

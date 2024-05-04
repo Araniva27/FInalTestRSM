@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="../css/bootstrap.min.css" rel="stylesheet">
+    <script src="../js/bootstrap.bundle.min.js"></script>
+    <title>Final Test</title>
+</head>
+<body>
+	<nav class="navbar navbar-expand-lg bg-dark" data-bs-theme="dark">
+		<div class="container-fluid">
+			<a class="navbar-brand" href="#">Final Test</a>
+			<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+				<div class="navbar-nav">
+				<a class="nav-link" aria-current="page" href="../index.html">Report: Quantity of products sold</a>
+				<a class="nav-link active" href="#">Report: products sold by territory (CTE)</a>
+				<a class="nav-link" href="ReportSalesByCustomer.html">Report: Sales By Customer</a>				
+				</div>
+			</div>
+		</div>
+	</nav>
+	<div class="container">
+		<div class="row mt-3">
+			<h3 class="d-flex justify-content-center">Report: products sold by territory (CTE)</h3>
+		</div>
+		<div class="container" style="height: 4px; background-color: black; border-radius: 2em;"></div>
+		<div class="card mt-3">
+			<form action="#" method="GET">
+				<div class="card-body">
+					<b>Filters</b>
+					<div class="row mt-3">
+						<div class="col-lg-3">
+							<label><b>Choose product category</b></label>
+							<select class="form-select" aria-label="Default select example" id="cmbCategories">
+								<option selected>Choose category</option>
+								
+							</select>
+						</div>
+                        <div class="col-lg-3">
+							<label><b>Choose a territory</b></label>
+							<select class="form-select" aria-label="Default select example" id="cmbTerritories">
+								<option selected>Choose territory</option>
+								
+							</select>
+						</div>
+						<div class="col-lg-3">
+							<label><b>Choose starting date of the range</b></label>
+							<div class="input-group flex-nowrap">														
+								<input type="date" class="form-control" placeholder="Username" id="txtStartDate" aria-label="Username" aria-describedby="addon-wrapping">
+							</div>
+						</div>
+						<div class="col-lg-3">
+							<label><b>Choose end date of the range</b></label>
+							<div class="input-group flex-nowrap">														
+								<input type="date" class="form-control" placeholder="Username" id="txtEndDate" aria-label="Username" aria-describedby="addon-wrapping">
+							</div>
+						</div>
+					</div>
+					<div class="row mt-3">
+						<div class="col d-flex justify-content-center">
+							<button type="button" class="btn btn-success mx-2" id="btnGenerateProductByRegionReport" onclick="getSalesReportData()">Generate report</button>													
+						</div>
+					</div>						
+				</div>
+			</form>
+		</div>
+		<div class="card mt-3">
+			<div class="dropdown d-flex justify-content-center mt-3">
+				<button class="btn btn-secondary dropdown-toggle hideDropdown" type="button" id="cmbDownload" data-bs-toggle="dropdown" aria-expanded="false">
+					Download As
+				</button>
+				<ul class="dropdown-menu">
+					<li><a class="dropdown-item" href="#" id="btnPdf">PDF</a></li>
+					<li><a class="dropdown-item" href="#" id="btnCSV">CSV</a></li>								
+				</ul>
+			</div>
+			<div class="row mt-3 hideDropdown">				
+				<div class="col d-flex justify-content-center hideDropdown">
+					<button type="button" class="btn btn-primary d-flex justify-content-center" onclick="previousPage()">Previous page</button>																				
+				</div>
+				<div class="col d-flex justify-content-center hideDropdown">
+					<button type="button" class="btn btn-primary d-flex justify-content-center" onclick="nextPage()">Next page</button>																				
+				</div>
+			</div>
+			<div class="row d-flex justify-content-center">
+				<p id="lblPageNumber" class="hiddenTable d-flex justify-content-center"></p>
+			</div>
+			<div class="card-body">
+				<table class="table table-striped hiddenTable">
+					<thead>
+						<tr>
+							<th scope="col">Product Name</th>
+                            <th scope="col">Product Category</th>
+							<th scope="col">Total Sales ($)</th>
+							<th scope="col">Percent of Total Category Sales in Region</th>							
+							<th scope="col">Percent of Total Sales in Region</th>
+							<th scope="col">Territory</th>
+                            <th scope="col">Order Date</th>
+							</tr>
+					</thead>
+					<tbody id="tbody-productByRegionReport">									
+					</tbody>
+				</table>
+			</div>
+		</div>
+	</div>   
+</body>
+	<script src="../js/jquery-3.7.1.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.3.1/jspdf.umd.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.3.0/papaparse.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/FileSaver.js/2.0.5/FileSaver.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf-autotable/3.5.23/jspdf.plugin.autotable.min.js"></script>
+	<script src="../js/ProductByTerritoryPDF.js"></script>	
+	<script src="../js/ProductByTerritoryCSV.js"></script>	 
+	<script src="../js/ProductCategories.js"></script>		
+	<script src="../js/SalesTerritories.js"></script>		
+
+</html>
