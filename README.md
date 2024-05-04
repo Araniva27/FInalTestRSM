@@ -1,13 +1,16 @@
-Final Test RSM by MAnuel Araniva
+# Final Test RSM by Manuel Araniva
+
 To properly use the application and the API, it is necessary to follow the following recommendations:
-1-Modify the port number in the JavaScript URLs in the following files:
-  -SalesByCustomerPDF.js (line 16)
-  -SalesReportPDF.js (line 53)
-  -SalesTerritories.js (line 8)
-  -ProductCategories (line 8)
-  -ProductByTerritoryPDF.js (line 15)
+
+1- Modify the port number in the JavaScript URLs in the following files:
+
+  - SalesByCustomerPDF.js (line 16)
+  - SalesReportPDF.js (line 53)
+  - SalesTerritories.js (line 8)
+  - ProductCategories.js (line 8)
+  - ProductByTerritoryPDF.js (line 15)
+
 2-Add the following stored procedures
--------------------------------------------------------------------------------
 CREATE PROCEDURE SalesReport
     @productCategory nvarchar(100) = null,
     @startDate date = null,
