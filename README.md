@@ -201,3 +201,9 @@ WHERE RowNum BETWEEN (@PageNumber - 1) * @PageSize + 1 AND @PageNumber * @PageSi
 AND (@productCategory IS NULL OR ProductCategory = @productCategory)
 AND (@territory IS NULL OR TerritoryName = @territory)
 ```
+
+##Libraries used
+- **Bootstrap**: Utilized for interface design.
+- **JavaScript (JQuery and AJAX)**: Used for consuming various API endpoints.
+- **jsPDF**: Employed for PDF design.
+- **Papaparse**: Utilized for CSV file design.
