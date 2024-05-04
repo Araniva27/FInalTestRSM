@@ -11,6 +11,7 @@ To properly use the application and the API, it is necessary to follow the follo
   - ProductByTerritoryPDF.js (line 15)
 
 2-Add the following stored procedures
+```sql
 CREATE PROCEDURE SalesReport
     @productCategory nvarchar(100) = null,
     @startDate date = null,
@@ -64,6 +65,7 @@ BEGIN
         RowNum BETWEEN @startRow AND @endRow
 	ORDER BY OrderDate ASC
 END
+```
 -------------------------------------------------------------------------------
 CREATE PROCEDURE SalesByCustomer (
     @startDate date = NULL,
