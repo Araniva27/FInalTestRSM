@@ -66,7 +66,7 @@ BEGIN
 	ORDER BY OrderDate ASC
 END
 ```
--------------------------------------------------------------------------------
+```sql
 CREATE PROCEDURE SalesByCustomer (
     @startDate date = NULL,
     @endDate date = NULL,
@@ -132,7 +132,8 @@ BEGIN
     FROM SalesSummary
     WHERE RowNumber BETWEEN (@PageNumber - 1) * @PageSize + 1 AND @PageNumber * @PageSize;
 END
--------------------------------------------------------------------------------
+```
+```sql
 CREATE PROCEDURE Sales_CTE
 	@productCategory nvarchar(100) = NULL,
 	@startDate datetime = NULL,
@@ -199,4 +200,4 @@ FROM PercentageOfContribution
 WHERE RowNum BETWEEN (@PageNumber - 1) * @PageSize + 1 AND @PageNumber * @PageSize
 AND (@productCategory IS NULL OR ProductCategory = @productCategory)
 AND (@territory IS NULL OR TerritoryName = @territory)
--------------------------------------------------------------------------------
+```
